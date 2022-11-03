@@ -9,7 +9,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #CFE6EE;
+    background-image: url(image/9.jpg);
 
 }
 ol, ul {
@@ -31,6 +31,9 @@ table {
    padding: 20px 220px;
    overflow: auto;
 }
+article{
+    background-color: #CFE6EE;
+}
 .content {
    float: left;
    width: 75%;
@@ -38,35 +41,42 @@ table {
  .jumbotron {
     font-size: 20px;
     padding: 60px;
-    background-color: #B3E4EE;
     text-align: center;
-    color: #3D606B;
-
+    color: #D1F5ED;
+    background-color: #53A7B8;
  }
- p{
+ .judul {
+    color: #D1F5ED;
+}
+p{
     color: #5D686B;
     font-size: 20px;
  }
- nav {
-   background-color: #6AD5EB;
+p.kaki{
+    color: white;
+    font-size: 15px;
+} 
+nav {
+   background: linear-gradient(#30616B,#6AD5EB);
    padding: 15px;
    position: sticky;
    top: 0;
+   text-align: center;
 
 }
  nav a {
     font-size: 20px;
     text-decoration: none;
-    color: #5D686B;
+    color: white;
 
  }
  nav a:hover {
-    font-weight: bold;
+    color: #50676B;
  }
  nav li {
     display: inline;
     list-style-type: none;
-    margin-right: 100px;
+    margin: 20px;
  } 
  h2{
     color: #3D606B;
@@ -118,7 +128,7 @@ table {
  footer {
     padding: 20px;
     color: #3D606B;
-    background-color: #6AD5EB;
+    background: linear-gradient(#6AD5EB,#30616B);
     text-align: center;
     font-weight: bold;
  } 
